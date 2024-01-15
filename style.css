@@ -25,7 +25,9 @@ header {
     font-weight: 800;
     font-size: 1.25rem;
     padding: 14px 34px;
+    border: none;
 }
+
 
 /* Nav section */
 .nav-container {
@@ -125,4 +127,39 @@ header {
     color: #424247;
     background-color: #FF5400;
     padding: 16px 64px ;
+}
+/* main section-1 */
+.tour-title{
+    color: #131318;
+    font-weight: 800;
+}
+.popular-Tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    margin-top: 100px;
+} 
+.primary-btn {
+    font-size: 1.25rem;
+    font-weight: 800; 
+}
+.tour-description p {
+  margin-top: 24px;
+}
+.tour-description li{
+    margin-top: 24px;
+}
+/* reponsive for mobile devices */
+@media screen and (max-width:600px){
+    header , main {
+        margin: 0;
+    }
+    .nav-container ,
+    .nav-search-section
+     {
+        flex-direction: column;
+
+    }
+    
 }

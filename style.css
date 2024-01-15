@@ -18,6 +18,14 @@ header {
 .primary-lightgray {
     color: #424247;
 }
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.25rem;
+    padding: 14px 34px;
+}
 
 /* Nav section */
 .nav-container {
@@ -50,4 +58,71 @@ header {
 .nav-option a {
     text-decoration: none;
     font-size: 1.125rem;
+}
+/* nav-picture-section */
+.nav-img-container {
+    width: 1170px;
+    height: 500px;
+   
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 1rem;
+}
+.nav-img-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 106px;
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.nav-img-description {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+
+}
+.nav-search-section {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top:48px ;
+    margin-bottom: 106px;
+    margin-left: 185px;
+    margin-right: 185px;
+    padding: 12px;
+}
+.nav-search-section li {
+    list-style: none;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.nav-search-section img {
+    width: 15px;
+    height: 12px;
+}
+.option  {
+    width: 174px;
+    height: 52px;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px ;
+    padding-right: 84px;
+}
+.nav-on-btn {
+    color: #424247;
+    background-color: #FF5400;
+    padding: 16px 64px ;
 }

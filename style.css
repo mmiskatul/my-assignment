@@ -136,6 +136,87 @@ main {
     
 }
 
+/* Choose section3 */
+.section3{
+    margin-top: 106px;
+    text-align: center;
+}
+.destination-section h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+   
+}
+.Maldives {
+    background-image: url(Images/Rectangle\ 5.png);
+    color: #FFF;
+    padding: 133px 227px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+    
+}
+.Indonesia {
+    background-image: url(Images/Rectangle\ 8.png);
+    color: #FFF;
+    padding: 132px 220px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.Srilanka {
+    background-image: url(Images/Rectangle\ 6.png);
+    color: #FFF;
+    padding: 125px 130px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.North-America{
+    background-image: url(Images/Rectangle\ 7.png);
+    color: #FFF;
+    padding: 125px 137px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.Kahmir{
+    background-image: url(Images/Rectangle\ 4.png);
+    color: #FFF;
+    padding: 125px 81px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.bangladesh {
+    background-image: url(Images/Rectangle\ 11.png);
+    color: #FFF;
+    padding: 133px 155px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.Bandarbon {
+    background-image: url(Images/Rectangle\ 10.png);
+    color: #FFF;
+    padding: 132px 260px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+    
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+/* section4 */
+.Section
+
 
 
 
@@ -157,7 +238,9 @@ main {
 }
     .nav-container ,
     .section1-option ,
-    .section2
+    .section2 ,
+    .section3
+    .row
      {
         flex-direction: column;
          
@@ -182,5 +265,8 @@ main {
         color: #131318;
         font-size: 1.25rem;
         font-weight: 800;
+    }
+    .section3-img-container{
+        width: 100%;
     }
 }
